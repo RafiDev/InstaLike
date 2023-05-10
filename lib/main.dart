@@ -15,11 +15,11 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: 'AIzaSyBoPGXNLntlnc0RYUvRTyEuyJZVuUM5F98',
-        appId: '1:28697088278:web:545952a8bfd55dffe4c037',
-        messagingSenderId: '28697088278',
-        projectId: 'flutter-project-tek5',
-        storageBucket: 'flutter-project-tek5.appspot.com',
+        apiKey: 'apiKey',
+        appId: 'appId',
+        messagingSenderId: 'messagingSenderId',
+        projectId: 'projectId',
+        storageBucket: 'storageBucketgit',
       ),
     );
   } else {
